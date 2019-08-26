@@ -4,10 +4,11 @@
 
 ## Глава 1: Вступление <a id="vstuplenie"></a>
 
-* [Вступление](vstuplenie/vstuplenie.md)
-* [Почему Elm?](vstuplenie/pochemu-elm.md)
+* [Вступление](vstuplenie/vstuplenie/README.md)
+  * [Почему Elm?](vstuplenie/vstuplenie/pochemu-elm.md)
+  * [Untitled](vstuplenie/vstuplenie/untitled.md)
 
-## Давайте начнем
+## Глава 2: Давайте начнем <a id="davaite-nachnem"></a>
 
 * [Untitled](davaite-nachnem/untitled.md)
 
