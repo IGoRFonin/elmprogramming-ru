@@ -10,6 +10,7 @@
   * [Для кого эта книга](vstuplenie/glava-1-vstuplenie/dlya-kogo-eta-kniga.md)
   * [Соглашения по использованию книги](vstuplenie/glava-1-vstuplenie/soglasheniya-po-ispolzovaniyu-knigi.md)
   * [Благодарность](vstuplenie/glava-1-vstuplenie/blagodarnost.md)
+  * [Об авторе](vstuplenie/glava-1-vstuplenie/ob-avtore.md)
 * [Глава 2: Давайте начнем](vstuplenie/glava-2-davaite-nachnem/README.md)
   * [Установка](vstuplenie/glava-2-davaite-nachnem/ustanovka.md)
 
