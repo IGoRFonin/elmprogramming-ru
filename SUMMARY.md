@@ -6,5 +6,6 @@
   * [Обратная связь](vstuplenie-1/untitled.md)
   * [Для кого эта книга](vstuplenie-1/dlya-kogo-eta-kniga.md)
   * [Соглашения по использованию книги](vstuplenie-1/soglasheniya-po-ispolzovaniyu-knigi.md)
+  * [Благодарность](vstuplenie-1/blagodarnost.md)
 * [Глава 2: Давайте начнем](glava-2-davaite-nachnem.md)
 
