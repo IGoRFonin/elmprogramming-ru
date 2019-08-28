@@ -13,6 +13,7 @@
   * [Об авторе](vstuplenie/glava-1-vstuplenie/ob-avtore.md)
 * [Глава 2: Давайте начнем](vstuplenie/glava-2-davaite-nachnem/README.md)
   * [Установка](vstuplenie/glava-2-davaite-nachnem/ustanovka.md)
+  * [Создание простой веб-страницы](vstuplenie/glava-2-davaite-nachnem/sozdanie-prostoi-veb-stranicy.md)
 
 ## Синтаксис и сементика
 
