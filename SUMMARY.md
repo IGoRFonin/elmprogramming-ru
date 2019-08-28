@@ -14,6 +14,7 @@
 * [Глава 2: Давайте начнем](vstuplenie/glava-2-davaite-nachnem/README.md)
   * [Установка](vstuplenie/glava-2-davaite-nachnem/ustanovka.md)
   * [Создание простой веб-страницы](vstuplenie/glava-2-davaite-nachnem/sozdanie-prostoi-veb-stranicy.md)
+  * [Elm Platform](vstuplenie/glava-2-davaite-nachnem/elm-platform.md)
 
 ## Синтаксис и сементика
 
