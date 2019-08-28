@@ -79,5 +79,73 @@ update msg model =
 Не переживайте сейчас за то что написано в примере. Это для демонстрации как работает `elm-format .`
 {% endhint %}
 
+Хотя этот код и валиден для Elm компилятора, но соответсвует общепринятому стилю. Давайте применим `elm-format` чтобы исправить это. Зайдем в `beginning-elm` через терминал и запустим команду:
+
+```bash
+$ elm-format TestElmFormat.elm
+```
+
+Вы увидите следующее предупреждение.
+
+```bash
+This will overwrite the following files to use Elm's preferred style:
+
+    TestElmFormat.elm
+
+This cannot be undone! Make sure to back up these files before proceeding.
+
+Are you sure you want to overwrite these files with formatted versions? (y/n)
+```
+
+Ответьте `y` . Теперь, если вы загляните внутрь файла `TestElmFormat.elm`, вы заметите, что `elm-format` отформатировал код, как показано ниже.
+
+```haskell
+module Main exposing (..)
+
+import Html exposing (beginnerProgram, button, div, text)
+import Html.Events exposing (onClick)
+
+
+main =
+    beginnerProgram
+        { model = 0
+        , view = view
+        , update = update
+        }
+
+
+view model =
+    div []
+        [ button [ onClick Decrement ] [ text "-" ]
+        , div [] [ text (toString model) ]
+        , button [ onClick Increment ] [ text "+" ]
+        ]
+
+
+type Msg
+    = Increment
+    | Decrement
+
+
+update msg model =
+    case msg of
+        Increment ->
+            model + 1
+
+        Decrement ->
+            model - 1
+
+```
+
+Если вы хотите избежать предупреждения, то нужно запустить `elm-format` с флагом `--yes` .
+
+```bash
+$ elm-format TestElmFormat.elm --yes
+```
+
+### Использование elm-format в редакторе кода
+
+Запускать каждый раз `elm-format` после изменения файла может быть утомительным. Поэтому большинство редакторов предлагают плагин для автоматического запуска его каждый раз, когда мы сохраняем Elm файл. Установите плагин для вашего редактора с [официального инструкции](https://github.com/avh4/elm-format#editor-integration). Некоторые плагины требуют, чтобы вы вручную включили формат при сохранении. Обязательно прочитайте инструкцию о том, как это сделать.
+
 
 
