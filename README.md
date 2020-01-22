@@ -1,2 +1,2 @@
-# Initial page2
+# Initial page
 

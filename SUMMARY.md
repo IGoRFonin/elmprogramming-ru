@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page2](README.md)
+* [Initial page](README.md)
 
 ## Вступление
 
